@@ -1,0 +1,42 @@
+
+.footerLogoSocial{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footerSocial{
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerContact h2{
+    margin-left: 12px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 2px 0px;
+}
+.footerContact ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 30px;
+}
+.footerContact ul li {
+    font-size: 14px;
+}
+.footerContact ul svg{
+    font-size: 15px;
+}
+.contactButton{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 12px;
+}

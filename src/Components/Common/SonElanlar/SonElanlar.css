@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+.sonElanlarTitle{
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 2px 0px;
+}
+.sonElanlar {
+    margin-top: 50px;
+}

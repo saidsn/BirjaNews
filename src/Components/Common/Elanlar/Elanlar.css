@@ -1,0 +1,93 @@
+.elanlar:first-child{
+    margin-top: 40px;
+}
+.elan {
+    width: 100%;
+    height: max-content;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.elan a {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+}
+
+.elanImage img {
+    width: 234px;
+    height: 234px;
+    object-fit: cover;
+}
+
+.elanDescription {
+    padding-left: 10px;
+    padding-right: 30px;
+    flex-grow: 1;
+}
+
+.elanDescription .elanTitle h5 {
+    margin-bottom: 10px;
+    opacity: .5;
+   
+}
+
+.elanDescription .elanTitle h3 {
+    margin-top: 0;
+}
+
+.elanDescription .elanDateButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.elanDescription .elanDateButton .elanDate {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    opacity: .5;
+}
+
+.elanDescription .elanDateButton .elanButton {
+    padding-right: 10px;
+}
+
+.elanDescription .elanDateButton .elanButton a {
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+}
+.paginationData{
+    margin: 20px 0 20px 0;
+}
+@media (max-width: 767px) {
+    .elan a{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .elanImage {
+      order: 1;
+    }
+  
+    .elanDescription {
+      order: 2;
+    }
+    .paginationData {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .paginationData > * {
+        flex-wrap: nowrap;
+      }
+  }
+ 
+  

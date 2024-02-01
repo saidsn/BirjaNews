@@ -1,0 +1,11 @@
+.footerBottom {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  background-color: #000000;
+}
+.footerCopyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 20px 0;
+  color: white;
+}

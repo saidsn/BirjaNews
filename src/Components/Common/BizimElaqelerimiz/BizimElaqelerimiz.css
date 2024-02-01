@@ -1,0 +1,16 @@
+.bizimElaqelerimiz h2{
+    margin-left: 12px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 2px 0px;
+}
+.bizimElaqelerimiz ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 30px;
+}
+.bizimElaqelerimiz ul li {
+    font-size: 14px;
+}
+.bizimElaqelerimiz ul svg{
+    font-size: 15px;
+}

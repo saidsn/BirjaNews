@@ -1,0 +1,9 @@
+.searchBar{
+   position: absolute;
+    top: 100%;
+    left: 30%;
+    max-width: 40%!important;
+}
+.searchLink{
+    text-decoration: none;
+}

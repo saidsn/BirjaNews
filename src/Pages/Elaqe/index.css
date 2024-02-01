@@ -1,0 +1,15 @@
+.elaqeSocial{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 10px;
+}
+.elaqeSocial svg:first-child {
+    margin-left: 10px;
+
+}
+.elaqeSocial svg{
+    color: #b1a2a2;
+    cursor: pointer;
+}
